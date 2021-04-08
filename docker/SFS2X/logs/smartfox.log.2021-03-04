@@ -1,0 +1,1450 @@
+04 Mar 2021 | 10:24:18,853 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+04 Mar 2021 | 10:24:19,147 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+04 Mar 2021 | 10:24:19,162 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+04 Mar 2021 | 10:24:19,206 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+04 Mar 2021 | 10:24:19,207 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+04 Mar 2021 | 10:24:19,207 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+04 Mar 2021 | 10:24:19,211 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+04 Mar 2021 | 10:24:19,214 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+04 Mar 2021 | 10:24:19,231 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 10:24:19,252 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:24:19,257 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:24:19,293 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+04 Mar 2021 | 10:24:19,456 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+04 Mar 2021 | 10:24:19,458 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+04 Mar 2021 | 10:24:19,458 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+04 Mar 2021 | 10:24:21,348 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+04 Mar 2021 | 10:32:44,061 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+04 Mar 2021 | 10:32:44,401 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+04 Mar 2021 | 10:32:44,418 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+04 Mar 2021 | 10:32:44,482 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+04 Mar 2021 | 10:32:44,483 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+04 Mar 2021 | 10:32:44,483 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+04 Mar 2021 | 10:32:44,487 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+04 Mar 2021 | 10:32:44,490 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+04 Mar 2021 | 10:32:44,508 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 10:32:44,528 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:32:44,534 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:32:44,579 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+04 Mar 2021 | 10:32:44,633 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 127.0.0.1:9933, (Udp) } 
+04 Mar 2021 | 10:32:44,636 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+04 Mar 2021 | 10:32:44,636 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+04 Mar 2021 | 10:32:46,042 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+04 Mar 2021 | 10:33:04,600 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+04 Mar 2021 | 10:33:04,600 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+04 Mar 2021 | 10:33:04,610 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+04 Mar 2021 | 10:33:07,867 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+04 Mar 2021 | 10:33:08,184 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+04 Mar 2021 | 10:33:08,199 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+04 Mar 2021 | 10:33:08,242 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+04 Mar 2021 | 10:33:08,243 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+04 Mar 2021 | 10:33:08,253 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+04 Mar 2021 | 10:33:08,256 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+04 Mar 2021 | 10:33:08,258 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+04 Mar 2021 | 10:33:08,276 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 10:33:08,295 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:33:08,301 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 10:33:08,339 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+04 Mar 2021 | 10:33:08,386 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 127.0.0.1:9933, (Udp) } 
+04 Mar 2021 | 10:33:08,388 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+04 Mar 2021 | 10:33:08,388 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+04 Mar 2021 | 10:33:09,683 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+04 Mar 2021 | 10:33:37,644 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+04 Mar 2021 | 10:33:37,644 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+04 Mar 2021 | 10:33:37,648 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+04 Mar 2021 | 10:35:39,482 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 56502
+04 Mar 2021 | 10:35:39,503 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56502 ) , Type: JavaScript
+04 Mar 2021 | 10:35:39,509 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56502 ) , asSpect: false
+04 Mar 2021 | 10:36:42,653 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:56502 }
+04 Mar 2021 | 10:36:42,654 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56502 ) , SessionLen: 63151, Type: JavaScript
+04 Mar 2021 | 10:55:19,449 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+04 Mar 2021 | 10:55:19,450 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+04 Mar 2021 | 10:55:19,450 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+04 Mar 2021 | 11:12:27,502 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 62457
+04 Mar 2021 | 11:12:27,510 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:62457 ) , Type: JavaScript
+04 Mar 2021 | 11:12:27,514 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:62457 ) , asSpect: false
+04 Mar 2021 | 11:13:37,761 | INFO  | SFSWorker:Ext:2 | Extensions |     | {Admin}: Restarting SmartFoxServer... 
+04 Mar 2021 | 11:13:37,761 | WARN  | SFSWorker:Ext:2 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER RESTARTING ***
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketReader | bitswarm.core.SocketReader |     | Problems in SocketReader main loop: java.lang.InterruptedException: sleep interrupted, Thread: Thread[SocketReader,5,main]
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::UDP-1 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,763 | INFO  | SocketWriter::UDP-1 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 11:13:37,763 | WARN  | SocketReader | bitswarm.core.SocketReader |     | java.lang.InterruptedException: sleep interrupted
+	java.lang.Thread.sleep(Native Method)
+	com.smartfoxserver.bitswarm.core.SocketReader.run(SocketReader.java:173)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::TCP-1 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,763 | INFO  | SocketWriter::TCP-1 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::UDP-2 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,764 | INFO  | SocketWriter::UDP-2 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::UDP-3 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,764 | INFO  | SocketWriter::UDP-3 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::TCP-3 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,762 | WARN  | SocketWriter::TCP-2 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 11:13:37,765 | INFO  | SocketWriter::TCP-3 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 11:13:37,765 | INFO  | SocketWriter::TCP-2 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 11:13:40,772 | INFO  | SFSWorker:Ext:2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:62457 }
+04 Mar 2021 | 11:13:40,772 | INFO  | SFSWorker:Ext:2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1:62457 }
+04 Mar 2021 | 11:13:40,772 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:62457 ) , SessionLen: 73262, Type: JavaScript
+04 Mar 2021 | 11:13:41,298 | INFO  | :::SFSRestarter::: | v2.util.SFSRestart |     | Process restarted: java.lang.UNIXProcess@3ac8b4bf
+04 Mar 2021 | 11:13:41,675 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+04 Mar 2021 | 11:13:41,799 | INFO  | Thread-6 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+04 Mar 2021 | 11:13:41,800 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+04 Mar 2021 | 11:13:41,809 | INFO  | Thread-7 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+04 Mar 2021 | 11:13:42,053 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+04 Mar 2021 | 11:13:42,068 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+04 Mar 2021 | 11:13:42,137 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+04 Mar 2021 | 11:13:42,138 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+04 Mar 2021 | 11:13:42,150 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+04 Mar 2021 | 11:13:42,154 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+04 Mar 2021 | 11:13:42,157 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+04 Mar 2021 | 11:13:42,176 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 11:13:42,196 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 11:13:42,202 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 11:13:42,284 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+04 Mar 2021 | 11:13:42,355 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+04 Mar 2021 | 11:13:42,357 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+04 Mar 2021 | 11:13:42,357 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+04 Mar 2021 | 11:13:44,025 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+04 Mar 2021 | 11:13:49,014 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 64786
+04 Mar 2021 | 11:13:49,034 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:64786 ) , Type: JavaScript
+04 Mar 2021 | 11:13:49,041 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:64786 ) , asSpect: false
+04 Mar 2021 | 11:52:47,785 | INFO  | http-nio-8080-exec-9 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:64786 }
+04 Mar 2021 | 11:52:47,794 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:64786 ) , SessionLen: 2338761, Type: JavaScript
+04 Mar 2021 | 11:52:47,798 | INFO  | http-nio-8080-exec-9 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1:64786 }
+04 Mar 2021 | 13:55:03,697 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 56557
+04 Mar 2021 | 13:55:03,703 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56557 ) , Type: JavaScript
+04 Mar 2021 | 13:55:03,706 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56557 ) , asSpect: false
+04 Mar 2021 | 13:55:09,199 | WARN  | SFSWorker:Ext:2 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 13:55:14,635 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 13:55:15,862 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ServletManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 13:55:18,435 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+04 Mar 2021 | 13:55:18,435 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+04 Mar 2021 | 13:55:18,435 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+04 Mar 2021 | 14:07:20,799 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60819 } on Server port: 9933 <---> 60819
+04 Mar 2021 | 14:07:26,589 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60819 }
+04 Mar 2021 | 14:16:31,497 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:59193 } on Server port: 9933 <---> 59193
+04 Mar 2021 | 14:16:31,674 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:59193 ) , Type: Unity / .Net
+04 Mar 2021 | 14:16:47,424 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:59193 }
+04 Mar 2021 | 14:16:47,424 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:59193 ) , SessionLen: 15751, Type: Unity / .Net
+04 Mar 2021 | 14:30:25,145 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:62072 } on Server port: 9933 <---> 62072
+04 Mar 2021 | 14:30:25,196 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:62072 ) , Type: Unity / .Net
+04 Mar 2021 | 14:30:29,796 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:62072 }
+04 Mar 2021 | 14:30:29,797 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:62072 ) , SessionLen: 4600, Type: Unity / .Net
+04 Mar 2021 | 14:40:00,027 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60050 } on Server port: 9933 <---> 60050
+04 Mar 2021 | 14:41:08,427 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60050 }
+04 Mar 2021 | 14:41:11,382 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:61912 } on Server port: 9933 <---> 61912
+04 Mar 2021 | 14:41:16,081 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:61912 }
+04 Mar 2021 | 14:43:45,078 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:49651 } on Server port: 9933 <---> 49651
+04 Mar 2021 | 14:43:53,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:49651 }
+04 Mar 2021 | 14:44:21,735 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:50577 } on Server port: 9933 <---> 50577
+04 Mar 2021 | 14:44:21,777 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:50577 ) , Type: Unity / .Net
+04 Mar 2021 | 14:44:27,318 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:50577 }
+04 Mar 2021 | 14:44:27,318 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:50577 ) , SessionLen: 5541, Type: Unity / .Net
+04 Mar 2021 | 14:48:46,732 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:57237 } on Server port: 9933 <---> 57237
+04 Mar 2021 | 14:48:46,777 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:57237 ) , Type: Unity / .Net
+04 Mar 2021 | 14:48:47,336 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:57237 ) , asSpect: false
+04 Mar 2021 | 14:48:51,915 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:57237 }
+04 Mar 2021 | 14:48:51,916 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:57237 ) , SessionLen: 5139, Type: Unity / .Net
+04 Mar 2021 | 14:55:18,527 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+04 Mar 2021 | 14:55:18,528 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+04 Mar 2021 | 14:55:18,528 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+04 Mar 2021 | 15:06:33,586 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51318 } on Server port: 9933 <---> 51318
+04 Mar 2021 | 15:06:33,633 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:51318 ) , Type: Unity / .Net
+04 Mar 2021 | 15:06:49,510 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51318 }
+04 Mar 2021 | 15:06:49,511 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:51318 ) , SessionLen: 15878, Type: Unity / .Net
+04 Mar 2021 | 15:07:29,768 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52803 } on Server port: 9933 <---> 52803
+04 Mar 2021 | 15:07:29,814 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:52803 ) , Type: Unity / .Net
+04 Mar 2021 | 15:07:35,145 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:52803 }
+04 Mar 2021 | 15:07:35,145 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:52803 ) , SessionLen: 5331, Type: Unity / .Net
+04 Mar 2021 | 15:16:26,891 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ServletManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:16:28,228 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:16:29,666 | WARN  | SFSWorker:Ext:2 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:16:30,897 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:16:36,198 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ServletManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:16:37,120 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:09,868 | WARN  | SFSWorker:Ext:2 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:11,294 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:12,247 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:14,024 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:14,424 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:17:24,052 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:56557 }
+04 Mar 2021 | 15:17:24,053 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56557 ) , SessionLen: 4940350, Type: JavaScript
+04 Mar 2021 | 15:17:28,169 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 51558
+04 Mar 2021 | 15:17:28,178 | WARN  | SFSWorker:Ext:1 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: Admin login refused to user 'sfsadmin': invalid credentials
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.events.LoginEvtHandler.handleServerEvent(LoginEvtHandler.java:94)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:888)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:17:28,179 | INFO  | http-nio-8080-exec-10 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1:51558 }
+04 Mar 2021 | 15:17:32,794 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 51675
+04 Mar 2021 | 15:17:32,797 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: Admin login refused to user 'sfsadmin': invalid credentials
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.events.LoginEvtHandler.handleServerEvent(LoginEvtHandler.java:94)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:888)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:17:32,799 | INFO  | http-nio-8080-exec-7 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1:51675 }
+04 Mar 2021 | 15:17:35,214 | INFO  | http-nio-8080-exec-4 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 51740
+04 Mar 2021 | 15:17:35,219 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 8, Priv: 0, Sess: 0:0:0:0:0:0:0:1:51740 ) , Type: JavaScript
+04 Mar 2021 | 15:17:35,224 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 8, Priv: 0, Sess: 0:0:0:0:0:0:0:1:51740 ) , asSpect: false
+04 Mar 2021 | 15:17:35,326 | WARN  | SFSWorker:Ext:2 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:18:10,106 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.admin.exceptions.IllegalRequestException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.admin.exceptions.IllegalRequestException
+Message: User 'sfsadmin' is not allowed to send requests to AdminTool's ExtensionManager module
+Description: Error while handling client request in extension: { Ext: Admin, Type: JAVA, Lev: ZONE, { Zone: --=={{{ AdminZone }}}==-- }, {} }
+Extension Cmd: extensionMan.init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.requests.BaseAdminModuleReqHandler.handleClientRequest(BaseAdminModuleReqHandler.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:18:38,706 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.admin.exceptions.IllegalRequestException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.admin.exceptions.IllegalRequestException
+Message: User 'sfsadmin' is not allowed to send requests to AdminTool's ServletManager module
+Description: Error while handling client request in extension: { Ext: Admin, Type: JAVA, Lev: ZONE, { Zone: --=={{{ AdminZone }}}==-- }, {} }
+Extension Cmd: servletMan.init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.requests.BaseAdminModuleReqHandler.handleClientRequest(BaseAdminModuleReqHandler.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:18:39,454 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.admin.exceptions.IllegalRequestException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.admin.exceptions.IllegalRequestException
+Message: User 'sfsadmin' is not allowed to send requests to AdminTool's ExtensionManager module
+Description: Error while handling client request in extension: { Ext: Admin, Type: JAVA, Lev: ZONE, { Zone: --=={{{ AdminZone }}}==-- }, {} }
+Extension Cmd: extensionMan.init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.requests.BaseAdminModuleReqHandler.handleClientRequest(BaseAdminModuleReqHandler.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:18:40,581 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.admin.exceptions.IllegalRequestException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.admin.exceptions.IllegalRequestException
+Message: User 'sfsadmin' is not allowed to send requests to AdminTool's ServletManager module
+Description: Error while handling client request in extension: { Ext: Admin, Type: JAVA, Lev: ZONE, { Zone: --=={{{ AdminZone }}}==-- }, {} }
+Extension Cmd: servletMan.init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.requests.BaseAdminModuleReqHandler.handleClientRequest(BaseAdminModuleReqHandler.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:18:41,407 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.admin.exceptions.IllegalRequestException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.admin.exceptions.IllegalRequestException
+Message: User 'sfsadmin' is not allowed to send requests to AdminTool's ExtensionManager module
+Description: Error while handling client request in extension: { Ext: Admin, Type: JAVA, Lev: ZONE, { Zone: --=={{{ AdminZone }}}==-- }, {} }
+Extension Cmd: extensionMan.init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.requests.BaseAdminModuleReqHandler.handleClientRequest(BaseAdminModuleReqHandler.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:18:47,029 | INFO  | http-nio-8080-exec-2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:51740 }
+04 Mar 2021 | 15:18:47,030 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 8, Priv: 0, Sess: 0:0:0:0:0:0:0:1:51740 ) , SessionLen: 71811, Type: JavaScript
+04 Mar 2021 | 15:18:55,334 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 53770
+04 Mar 2021 | 15:18:55,341 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 9, Priv: 0, Sess: 0:0:0:0:0:0:0:1:53770 ) , Type: JavaScript
+04 Mar 2021 | 15:18:55,345 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 9, Priv: 0, Sess: 0:0:0:0:0:0:0:1:53770 ) , asSpect: false
+04 Mar 2021 | 15:18:55,416 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:18:58,443 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:02,947 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:03,345 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:03,642 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:04,022 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:04,357 | WARN  | SFSWorker:Ext:1 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:19:04,716 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+04 Mar 2021 | 15:20:38,841 | INFO  | SFSWorker:Ext:2 | Extensions |     | {Admin}: Restarting SmartFoxServer... 
+04 Mar 2021 | 15:20:38,842 | WARN  | SFSWorker:Ext:2 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER RESTARTING ***
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketReader | bitswarm.core.SocketReader |     | Problems in SocketReader main loop: java.lang.InterruptedException: sleep interrupted, Thread: Thread[SocketReader,5,main]
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::TCP-3 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::TCP-2 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,846 | INFO  | SocketWriter::TCP-2 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::UDP-1 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::UDP-3 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::UDP-2 | bitswarm.core.SocketWriter |     | SocketWriter::UDP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$UDPWriteRunner.run(SocketWriterV3.java:857)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,848 | INFO  | SocketWriter::UDP-2 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketReader | bitswarm.core.SocketReader |     | java.lang.InterruptedException: sleep interrupted
+	java.lang.Thread.sleep(Native Method)
+	com.smartfoxserver.bitswarm.core.SocketReader.run(SocketReader.java:173)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:20:38,844 | WARN  | SocketWriter::TCP-1 | bitswarm.core.SocketWriter |     | SocketWriter::TCP thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriterV3$TCPWriteRunner.run(SocketWriterV3.java:818)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+04 Mar 2021 | 15:20:38,849 | INFO  | SocketWriter::TCP-1 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 15:20:38,848 | INFO  | SocketWriter::UDP-3 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 15:20:38,847 | INFO  | SocketWriter::UDP-1 | bitswarm.core.SocketWriter |     | SocketWriter::UDP threadpool shutting down.
+04 Mar 2021 | 15:20:38,846 | INFO  | SocketWriter::TCP-3 | bitswarm.core.SocketWriter |     | SocketWriter::TCP threadpool shutting down.
+04 Mar 2021 | 15:20:41,848 | INFO  | SFSWorker:Ext:2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:53770 }
+04 Mar 2021 | 15:20:41,849 | INFO  | SFSWorker:Ext:2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1:53770 }
+04 Mar 2021 | 15:20:41,849 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 9, Priv: 0, Sess: 0:0:0:0:0:0:0:1:53770 ) , SessionLen: 106508, Type: JavaScript
+04 Mar 2021 | 15:20:42,386 | INFO  | :::SFSRestarter::: | v2.util.SFSRestart |     | Process restarted: java.lang.UNIXProcess@488c321a
+04 Mar 2021 | 15:20:42,600 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+04 Mar 2021 | 15:20:42,889 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+04 Mar 2021 | 15:20:42,889 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+04 Mar 2021 | 15:20:42,891 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+04 Mar 2021 | 15:20:42,901 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+04 Mar 2021 | 15:20:42,919 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+04 Mar 2021 | 15:20:42,964 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+04 Mar 2021 | 15:20:42,965 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+04 Mar 2021 | 15:20:42,973 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+04 Mar 2021 | 15:20:42,977 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+04 Mar 2021 | 15:20:42,979 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+04 Mar 2021 | 15:20:42,997 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+04 Mar 2021 | 15:20:43,017 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 15:20:43,022 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+04 Mar 2021 | 15:20:43,065 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+04 Mar 2021 | 15:20:43,118 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+04 Mar 2021 | 15:20:43,120 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+04 Mar 2021 | 15:20:43,120 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+04 Mar 2021 | 15:20:44,779 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+04 Mar 2021 | 15:20:49,493 | INFO  | http-nio-8080-exec-1 | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: WEBSOCKET, Logged: No, IP: 0:0:0:0:0:0:0:1 } on Server port: 8080 <---> 56495
+04 Mar 2021 | 15:20:49,510 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56495 ) , Type: JavaScript
+04 Mar 2021 | 15:20:49,517 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56495 ) , asSpect: false
+04 Mar 2021 | 15:26:34,224 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:65250 } on Server port: 9933 <---> 65250
+04 Mar 2021 | 15:26:34,365 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:65250 ) , Type: Unity / .Net
+04 Mar 2021 | 15:28:13,511 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:65250 }
+04 Mar 2021 | 15:28:13,513 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:65250 ) , SessionLen: 99149, Type: Unity / .Net
+04 Mar 2021 | 15:28:21,575 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51724 } on Server port: 9933 <---> 51724
+04 Mar 2021 | 15:28:21,626 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51724 ) , Type: Unity / .Net
+04 Mar 2021 | 15:28:32,471 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51724 }
+04 Mar 2021 | 15:28:32,472 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51724 ) , SessionLen: 10846, Type: Unity / .Net
+04 Mar 2021 | 15:31:23,987 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56277 } on Server port: 9933 <---> 56277
+04 Mar 2021 | 15:31:23,987 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56278 } on Server port: 9933 <---> 56278
+04 Mar 2021 | 15:31:24,034 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:56277 ) , Type: Unity / .Net
+04 Mar 2021 | 15:31:24,034 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:56278 ) , Type: Unity / .Net
+04 Mar 2021 | 15:31:31,724 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56278 }
+04 Mar 2021 | 15:31:31,725 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:56278 ) , SessionLen: 7691, Type: Unity / .Net
+04 Mar 2021 | 15:31:31,731 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56277 }
+04 Mar 2021 | 15:31:31,731 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:56277 ) , SessionLen: 7697, Type: Unity / .Net
+04 Mar 2021 | 15:32:29,205 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58026 } on Server port: 9933 <---> 58026
+04 Mar 2021 | 15:32:29,206 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58027 } on Server port: 9933 <---> 58027
+04 Mar 2021 | 15:32:29,245 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Type: Unity / .Net
+04 Mar 2021 | 15:32:29,251 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:58027 ) , Type: Unity / .Net
+04 Mar 2021 | 15:32:32,144 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , asSpect: false
+04 Mar 2021 | 15:32:32,904 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Room: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: BasicExamples }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:1019)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:816)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:32:33,999 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Room: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: BasicExamples }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:1019)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:816)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:32:36,859 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Room: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: BasicExamples }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:1019)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:816)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:32:39,198 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Room: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: BasicExamples }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:1019)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:816)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:32:39,838 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , Room: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: BasicExamples }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:1019)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:816)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 15:32:41,671 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58026 }
+04 Mar 2021 | 15:32:41,672 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58027 }
+04 Mar 2021 | 15:32:41,672 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:58027 ) , SessionLen: 12421, Type: Unity / .Net
+04 Mar 2021 | 15:32:41,672 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:58026 ) , SessionLen: 12427, Type: Unity / .Net
+04 Mar 2021 | 15:33:00,735 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58894 } on Server port: 9933 <---> 58894
+04 Mar 2021 | 15:33:00,736 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58895 } on Server port: 9933 <---> 58895
+04 Mar 2021 | 15:33:00,793 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:58894 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:00,793 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#8, Id: 8, Priv: 0, Sess: 127.0.0.1:58895 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:01,439 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#8, Id: 8, Priv: 0, Sess: 127.0.0.1:58895 ) , asSpect: false
+04 Mar 2021 | 15:33:06,915 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58894 }
+04 Mar 2021 | 15:33:06,916 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58895 }
+04 Mar 2021 | 15:33:06,916 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:58894 ) , SessionLen: 6123, Type: Unity / .Net
+04 Mar 2021 | 15:33:06,916 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#8, Id: 8, Priv: 0, Sess: 127.0.0.1:58895 ) , SessionLen: 6123, Type: Unity / .Net
+04 Mar 2021 | 15:33:44,604 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60046 } on Server port: 9933 <---> 60046
+04 Mar 2021 | 15:33:44,604 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60047 } on Server port: 9933 <---> 60047
+04 Mar 2021 | 15:33:44,649 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#9, Id: 9, Priv: 0, Sess: 127.0.0.1:60047 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:44,649 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#10, Id: 10, Priv: 0, Sess: 127.0.0.1:60046 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:45,268 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60046 }
+04 Mar 2021 | 15:33:45,268 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#10, Id: 10, Priv: 0, Sess: 127.0.0.1:60046 ) , SessionLen: 619, Type: Unity / .Net
+04 Mar 2021 | 15:33:45,273 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60047 }
+04 Mar 2021 | 15:33:45,274 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#9, Id: 9, Priv: 0, Sess: 127.0.0.1:60047 ) , SessionLen: 625, Type: Unity / .Net
+04 Mar 2021 | 15:33:49,202 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60177 } on Server port: 9933 <---> 60177
+04 Mar 2021 | 15:33:49,202 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60178 } on Server port: 9933 <---> 60178
+04 Mar 2021 | 15:33:49,259 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#12, Id: 12, Priv: 0, Sess: 127.0.0.1:60177 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:49,259 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#11, Id: 11, Priv: 0, Sess: 127.0.0.1:60178 ) , Type: Unity / .Net
+04 Mar 2021 | 15:33:54,671 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#12, Id: 12, Priv: 0, Sess: 127.0.0.1:60177 ) , asSpect: false
+04 Mar 2021 | 15:38:56,947 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60178 }
+04 Mar 2021 | 15:38:56,948 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#11, Id: 11, Priv: 0, Sess: 127.0.0.1:60178 ) , SessionLen: 307689, Type: Unity / .Net
+04 Mar 2021 | 15:39:05,842 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60177 }
+04 Mar 2021 | 15:39:05,843 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#12, Id: 12, Priv: 0, Sess: 127.0.0.1:60177 ) , SessionLen: 316584, Type: Unity / .Net
+04 Mar 2021 | 15:55:43,113 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+04 Mar 2021 | 15:55:43,115 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/2
+04 Mar 2021 | 15:55:43,115 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/3
+04 Mar 2021 | 16:36:11,653 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60260 } on Server port: 9933 <---> 60260
+04 Mar 2021 | 16:36:11,655 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60261 } on Server port: 9933 <---> 60261
+04 Mar 2021 | 16:36:11,694 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#13, Id: 13, Priv: 0, Sess: 127.0.0.1:60260 ) , Type: Unity / .Net
+04 Mar 2021 | 16:36:11,697 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#14, Id: 14, Priv: 0, Sess: 127.0.0.1:60261 ) , Type: Unity / .Net
+04 Mar 2021 | 16:36:15,767 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#14, Id: 14, Priv: 0, Sess: 127.0.0.1:60261 ) , asSpect: false
+04 Mar 2021 | 16:36:17,173 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60434 } on Server port: 9933 <---> 60434
+04 Mar 2021 | 16:36:17,196 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#15, Id: 15, Priv: 0, Sess: 127.0.0.1:60434 ) , Type: Unity / .Net
+04 Mar 2021 | 16:36:43,839 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60434 }
+04 Mar 2021 | 16:36:43,840 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#15, Id: 15, Priv: 0, Sess: 127.0.0.1:60434 ) , SessionLen: 26644, Type: Unity / .Net
+04 Mar 2021 | 16:37:46,326 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60260 }
+04 Mar 2021 | 16:37:46,327 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#13, Id: 13, Priv: 0, Sess: 127.0.0.1:60260 ) , SessionLen: 94634, Type: Unity / .Net
+04 Mar 2021 | 16:37:46,332 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60261 }
+04 Mar 2021 | 16:37:46,332 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#14, Id: 14, Priv: 0, Sess: 127.0.0.1:60261 ) , SessionLen: 94635, Type: Unity / .Net
+04 Mar 2021 | 16:37:48,956 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63028 } on Server port: 9933 <---> 63028
+04 Mar 2021 | 16:37:48,956 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63027 } on Server port: 9933 <---> 63027
+04 Mar 2021 | 16:37:49,023 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#16, Id: 16, Priv: 0, Sess: 127.0.0.1:63027 ) , Type: Unity / .Net
+04 Mar 2021 | 16:37:49,024 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#17, Id: 17, Priv: 0, Sess: 127.0.0.1:63028 ) , Type: Unity / .Net
+04 Mar 2021 | 16:37:49,695 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#16, Id: 16, Priv: 0, Sess: 127.0.0.1:63027 ) , asSpect: false
+04 Mar 2021 | 16:38:38,230 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 19, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64402 } on Server port: 9933 <---> 64402
+04 Mar 2021 | 16:38:38,265 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#18, Id: 18, Priv: 0, Sess: 127.0.0.1:64402 ) , Type: Unity / .Net
+04 Mar 2021 | 16:39:05,597 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:07,527 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:08,156 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:08,890 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:09,910 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:13,306 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:16,506 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:17,235 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:18,511 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:32,089 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:34,227 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:35,516 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:38,033 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:40,467 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:39:54,804 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 19, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64402 }
+04 Mar 2021 | 16:39:54,805 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#18, Id: 18, Priv: 0, Sess: 127.0.0.1:64402 ) , SessionLen: 76540, Type: Unity / .Net
+04 Mar 2021 | 16:42:53,276 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63028 }
+04 Mar 2021 | 16:42:53,276 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#17, Id: 17, Priv: 0, Sess: 127.0.0.1:63028 ) , SessionLen: 304252, Type: Unity / .Net
+04 Mar 2021 | 16:42:53,281 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63027 }
+04 Mar 2021 | 16:42:53,282 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#16, Id: 16, Priv: 0, Sess: 127.0.0.1:63027 ) , SessionLen: 304259, Type: Unity / .Net
+04 Mar 2021 | 16:50:56,674 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 20, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51563 } on Server port: 9933 <---> 51563
+04 Mar 2021 | 16:50:56,674 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 21, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51564 } on Server port: 9933 <---> 51564
+04 Mar 2021 | 16:50:56,719 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#19, Id: 19, Priv: 0, Sess: 127.0.0.1:51563 ) , Type: Unity / .Net
+04 Mar 2021 | 16:50:56,719 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#20, Id: 20, Priv: 0, Sess: 127.0.0.1:51564 ) , Type: Unity / .Net
+04 Mar 2021 | 16:50:58,653 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#20, Id: 20, Priv: 0, Sess: 127.0.0.1:51564 ) , asSpect: false
+04 Mar 2021 | 16:51:01,413 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 22, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51704 } on Server port: 9933 <---> 51704
+04 Mar 2021 | 16:51:01,432 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#21, Id: 21, Priv: 0, Sess: 127.0.0.1:51704 ) , Type: Unity / .Net
+04 Mar 2021 | 16:51:49,029 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 20, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51563 }
+04 Mar 2021 | 16:51:49,029 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 21, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51564 }
+04 Mar 2021 | 16:51:49,029 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#19, Id: 19, Priv: 0, Sess: 127.0.0.1:51563 ) , SessionLen: 52310, Type: Unity / .Net
+04 Mar 2021 | 16:51:49,031 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#20, Id: 20, Priv: 0, Sess: 127.0.0.1:51564 ) , SessionLen: 52312, Type: Unity / .Net
+04 Mar 2021 | 16:51:49,036 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 22, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51704 }
+04 Mar 2021 | 16:51:49,036 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#21, Id: 21, Priv: 0, Sess: 127.0.0.1:51704 ) , SessionLen: 47606, Type: Unity / .Net
+04 Mar 2021 | 16:52:11,445 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 23, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53704 } on Server port: 9933 <---> 53704
+04 Mar 2021 | 16:52:11,445 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53703 } on Server port: 9933 <---> 53703
+04 Mar 2021 | 16:52:11,491 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#23, Id: 23, Priv: 0, Sess: 127.0.0.1:53703 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:11,491 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#22, Id: 22, Priv: 0, Sess: 127.0.0.1:53704 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:13,837 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#23, Id: 23, Priv: 0, Sess: 127.0.0.1:53703 ) , asSpect: false
+04 Mar 2021 | 16:52:31,555 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 25, Type: DEFAULT, Logged: No, IP: 127.0.0.1:54266 } on Server port: 9933 <---> 54266
+04 Mar 2021 | 16:52:31,589 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#24, Id: 24, Priv: 0, Sess: 127.0.0.1:54266 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:36,617 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 25, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54266 }
+04 Mar 2021 | 16:52:36,618 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#24, Id: 24, Priv: 0, Sess: 127.0.0.1:54266 ) , SessionLen: 5029, Type: Unity / .Net
+04 Mar 2021 | 16:52:43,532 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 23, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53704 }
+04 Mar 2021 | 16:52:43,532 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53703 }
+04 Mar 2021 | 16:52:43,532 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#22, Id: 22, Priv: 0, Sess: 127.0.0.1:53704 ) , SessionLen: 32041, Type: Unity / .Net
+04 Mar 2021 | 16:52:43,532 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#23, Id: 23, Priv: 0, Sess: 127.0.0.1:53703 ) , SessionLen: 32041, Type: Unity / .Net
+04 Mar 2021 | 16:52:45,142 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 26, Type: DEFAULT, Logged: No, IP: 127.0.0.1:54664 } on Server port: 9933 <---> 54664
+04 Mar 2021 | 16:52:45,143 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 27, Type: DEFAULT, Logged: No, IP: 127.0.0.1:54665 } on Server port: 9933 <---> 54665
+04 Mar 2021 | 16:52:45,186 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#26, Id: 26, Priv: 0, Sess: 127.0.0.1:54664 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:45,186 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#25, Id: 25, Priv: 0, Sess: 127.0.0.1:54665 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:49,431 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#26, Id: 26, Priv: 0, Sess: 127.0.0.1:54664 ) , asSpect: false
+04 Mar 2021 | 16:52:50,715 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 28, Type: DEFAULT, Logged: No, IP: 127.0.0.1:54826 } on Server port: 9933 <---> 54826
+04 Mar 2021 | 16:52:50,728 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#27, Id: 27, Priv: 0, Sess: 127.0.0.1:54826 ) , Type: Unity / .Net
+04 Mar 2021 | 16:52:52,731 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 28, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54826 }
+04 Mar 2021 | 16:52:52,732 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#27, Id: 27, Priv: 0, Sess: 127.0.0.1:54826 ) , SessionLen: 2004, Type: Unity / .Net
+04 Mar 2021 | 16:53:15,804 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 26, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54664 }
+04 Mar 2021 | 16:53:15,804 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 27, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:54665 }
+04 Mar 2021 | 16:53:15,804 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#26, Id: 26, Priv: 0, Sess: 127.0.0.1:54664 ) , SessionLen: 30618, Type: Unity / .Net
+04 Mar 2021 | 16:53:15,805 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#25, Id: 25, Priv: 0, Sess: 127.0.0.1:54665 ) , SessionLen: 30619, Type: Unity / .Net
+04 Mar 2021 | 16:53:17,435 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 29, Type: DEFAULT, Logged: No, IP: 127.0.0.1:55575 } on Server port: 9933 <---> 55575
+04 Mar 2021 | 16:53:17,482 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#28, Id: 28, Priv: 0, Sess: 127.0.0.1:55575 ) , Type: Unity / .Net
+04 Mar 2021 | 16:53:20,090 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#28, Id: 28, Priv: 0, Sess: 127.0.0.1:55575 ) , asSpect: false
+04 Mar 2021 | 16:53:22,094 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 30, Type: DEFAULT, Logged: No, IP: 127.0.0.1:55712 } on Server port: 9933 <---> 55712
+04 Mar 2021 | 16:53:22,111 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#29, Id: 29, Priv: 0, Sess: 127.0.0.1:55712 ) , Type: Unity / .Net
+04 Mar 2021 | 16:53:24,241 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 30, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55712 }
+04 Mar 2021 | 16:53:24,242 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#29, Id: 29, Priv: 0, Sess: 127.0.0.1:55712 ) , SessionLen: 2131, Type: Unity / .Net
+04 Mar 2021 | 16:53:45,482 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 29, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55575 }
+04 Mar 2021 | 16:53:45,482 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#28, Id: 28, Priv: 0, Sess: 127.0.0.1:55575 ) , SessionLen: 28000, Type: Unity / .Net
+04 Mar 2021 | 16:53:47,115 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 31, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56419 } on Server port: 9933 <---> 56419
+04 Mar 2021 | 16:53:47,116 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 32, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56420 } on Server port: 9933 <---> 56420
+04 Mar 2021 | 16:53:47,156 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#30, Id: 30, Priv: 0, Sess: 127.0.0.1:56419 ) , Type: Unity / .Net
+04 Mar 2021 | 16:53:47,156 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#31, Id: 31, Priv: 0, Sess: 127.0.0.1:56420 ) , Type: Unity / .Net
+04 Mar 2021 | 16:54:08,618 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 31, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56419 }
+04 Mar 2021 | 16:54:08,619 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 32, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56420 }
+04 Mar 2021 | 16:54:08,619 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#30, Id: 30, Priv: 0, Sess: 127.0.0.1:56419 ) , SessionLen: 21463, Type: Unity / .Net
+04 Mar 2021 | 16:54:08,619 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#31, Id: 31, Priv: 0, Sess: 127.0.0.1:56420 ) , SessionLen: 21463, Type: Unity / .Net
+04 Mar 2021 | 16:54:54,846 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 33, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58232 } on Server port: 9933 <---> 58232
+04 Mar 2021 | 16:54:54,908 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#32, Id: 32, Priv: 0, Sess: 127.0.0.1:58232 ) , Type: Unity / .Net
+04 Mar 2021 | 16:54:58,062 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 34, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58329 } on Server port: 9933 <---> 58329
+04 Mar 2021 | 16:54:58,091 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#33, Id: 33, Priv: 0, Sess: 127.0.0.1:58329 ) , Type: Unity / .Net
+04 Mar 2021 | 16:54:58,949 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:55:00,347 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 33, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58232 }
+04 Mar 2021 | 16:55:00,348 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#32, Id: 32, Priv: 0, Sess: 127.0.0.1:58232 ) , SessionLen: 5440, Type: Unity / .Net
+04 Mar 2021 | 16:55:00,354 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 34, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58329 }
+04 Mar 2021 | 16:55:00,354 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#33, Id: 33, Priv: 0, Sess: 127.0.0.1:58329 ) , SessionLen: 2263, Type: Unity / .Net
+04 Mar 2021 | 16:55:06,758 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 35, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58580 } on Server port: 9933 <---> 58580
+04 Mar 2021 | 16:55:06,759 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 36, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58579 } on Server port: 9933 <---> 58579
+04 Mar 2021 | 16:55:06,809 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#35, Id: 35, Priv: 0, Sess: 127.0.0.1:58580 ) , Type: Unity / .Net
+04 Mar 2021 | 16:55:06,809 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#34, Id: 34, Priv: 0, Sess: 127.0.0.1:58579 ) , Type: Unity / .Net
+04 Mar 2021 | 16:55:10,234 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#35, Id: 35, Priv: 0, Sess: 127.0.0.1:58580 ) , asSpect: false
+04 Mar 2021 | 16:55:10,311 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 37, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58681 } on Server port: 9933 <---> 58681
+04 Mar 2021 | 16:55:10,344 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#36, Id: 36, Priv: 0, Sess: 127.0.0.1:58681 ) , Type: Unity / .Net
+04 Mar 2021 | 16:55:12,521 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 38, Type: DEFAULT, Logged: No, IP: 127.0.0.1:58745 } on Server port: 9933 <---> 58745
+04 Mar 2021 | 16:55:12,533 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#37, Id: 37, Priv: 0, Sess: 127.0.0.1:58745 ) , Type: Unity / .Net
+04 Mar 2021 | 16:55:31,071 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 37, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58681 }
+04 Mar 2021 | 16:55:31,071 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 38, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58745 }
+04 Mar 2021 | 16:55:31,072 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#36, Id: 36, Priv: 0, Sess: 127.0.0.1:58681 ) , SessionLen: 20728, Type: Unity / .Net
+04 Mar 2021 | 16:55:31,072 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#37, Id: 37, Priv: 0, Sess: 127.0.0.1:58745 ) , SessionLen: 18539, Type: Unity / .Net
+04 Mar 2021 | 16:55:43,098 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+04 Mar 2021 | 16:55:43,098 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/3
+04 Mar 2021 | 16:55:43,098 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/4
+04 Mar 2021 | 16:56:01,186 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 36, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58579 }
+04 Mar 2021 | 16:56:01,186 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 35, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:58580 }
+04 Mar 2021 | 16:56:01,187 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#34, Id: 34, Priv: 0, Sess: 127.0.0.1:58579 ) , SessionLen: 54378, Type: Unity / .Net
+04 Mar 2021 | 16:56:01,187 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#35, Id: 35, Priv: 0, Sess: 127.0.0.1:58580 ) , SessionLen: 54378, Type: Unity / .Net
+04 Mar 2021 | 16:56:02,834 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 39, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60166 } on Server port: 9933 <---> 60166
+04 Mar 2021 | 16:56:02,834 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 40, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60167 } on Server port: 9933 <---> 60167
+04 Mar 2021 | 16:56:02,879 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#38, Id: 38, Priv: 0, Sess: 127.0.0.1:60166 ) , Type: Unity / .Net
+04 Mar 2021 | 16:56:02,879 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#39, Id: 39, Priv: 0, Sess: 127.0.0.1:60167 ) , Type: Unity / .Net
+04 Mar 2021 | 16:56:07,311 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#39, Id: 39, Priv: 0, Sess: 127.0.0.1:60167 ) , asSpect: false
+04 Mar 2021 | 16:56:07,388 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 41, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60296 } on Server port: 9933 <---> 60296
+04 Mar 2021 | 16:56:07,421 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#40, Id: 40, Priv: 0, Sess: 127.0.0.1:60296 ) , Type: Unity / .Net
+04 Mar 2021 | 16:56:11,453 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 42, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60410 } on Server port: 9933 <---> 60410
+04 Mar 2021 | 16:56:11,470 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#41, Id: 41, Priv: 0, Sess: 127.0.0.1:60410 ) , Type: Unity / .Net
+04 Mar 2021 | 16:56:12,457 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:56:13,965 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:56:19,108 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 41, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60296 }
+04 Mar 2021 | 16:56:19,108 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 42, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60410 }
+04 Mar 2021 | 16:56:19,109 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#40, Id: 40, Priv: 0, Sess: 127.0.0.1:60296 ) , SessionLen: 11689, Type: Unity / .Net
+04 Mar 2021 | 16:56:19,109 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#41, Id: 41, Priv: 0, Sess: 127.0.0.1:60410 ) , SessionLen: 7639, Type: Unity / .Net
+04 Mar 2021 | 16:57:06,981 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 40, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60167 }
+04 Mar 2021 | 16:57:06,982 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 39, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60166 }
+04 Mar 2021 | 16:57:06,983 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#39, Id: 39, Priv: 0, Sess: 127.0.0.1:60167 ) , SessionLen: 64104, Type: Unity / .Net
+04 Mar 2021 | 16:57:06,983 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#38, Id: 38, Priv: 0, Sess: 127.0.0.1:60166 ) , SessionLen: 64104, Type: Unity / .Net
+04 Mar 2021 | 16:57:31,475 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 43, Type: DEFAULT, Logged: No, IP: 127.0.0.1:62604 } on Server port: 9933 <---> 62604
+04 Mar 2021 | 16:57:31,475 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 44, Type: DEFAULT, Logged: No, IP: 127.0.0.1:62605 } on Server port: 9933 <---> 62605
+04 Mar 2021 | 16:57:31,521 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#43, Id: 43, Priv: 0, Sess: 127.0.0.1:62604 ) , Type: Unity / .Net
+04 Mar 2021 | 16:57:31,521 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#42, Id: 42, Priv: 0, Sess: 127.0.0.1:62605 ) , Type: Unity / .Net
+04 Mar 2021 | 16:57:41,061 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 43, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:62604 }
+04 Mar 2021 | 16:57:41,062 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 44, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:62605 }
+04 Mar 2021 | 16:57:41,062 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#43, Id: 43, Priv: 0, Sess: 127.0.0.1:62604 ) , SessionLen: 9541, Type: Unity / .Net
+04 Mar 2021 | 16:57:41,062 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#42, Id: 42, Priv: 0, Sess: 127.0.0.1:62605 ) , SessionLen: 9541, Type: Unity / .Net
+04 Mar 2021 | 16:57:50,105 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 45, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63137 } on Server port: 9933 <---> 63137
+04 Mar 2021 | 16:57:50,153 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#44, Id: 44, Priv: 0, Sess: 127.0.0.1:63137 ) , Type: Unity / .Net
+04 Mar 2021 | 16:58:01,878 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 45, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63137 }
+04 Mar 2021 | 16:58:01,878 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#44, Id: 44, Priv: 0, Sess: 127.0.0.1:63137 ) , SessionLen: 11726, Type: Unity / .Net
+04 Mar 2021 | 16:58:41,686 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 46, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64600 } on Server port: 9933 <---> 64600
+04 Mar 2021 | 16:58:41,733 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#45, Id: 45, Priv: 0, Sess: 127.0.0.1:64600 ) , Type: Unity / .Net
+04 Mar 2021 | 16:58:43,394 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#45, Id: 45, Priv: 0, Sess: 127.0.0.1:64600 ) , asSpect: false
+04 Mar 2021 | 16:58:44,577 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 47, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64684 } on Server port: 9933 <---> 64684
+04 Mar 2021 | 16:58:44,594 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#46, Id: 46, Priv: 0, Sess: 127.0.0.1:64684 ) , Type: Unity / .Net
+04 Mar 2021 | 16:58:45,255 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:48,849 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:49,418 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:49,900 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:50,564 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:51,183 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 16:58:52,374 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 47, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64684 }
+04 Mar 2021 | 16:58:52,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 46, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64600 }
+04 Mar 2021 | 16:58:52,375 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#46, Id: 46, Priv: 0, Sess: 127.0.0.1:64684 ) , SessionLen: 7781, Type: Unity / .Net
+04 Mar 2021 | 16:58:52,376 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#45, Id: 45, Priv: 0, Sess: 127.0.0.1:64600 ) , SessionLen: 10643, Type: Unity / .Net
+04 Mar 2021 | 16:59:13,357 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 48, Type: DEFAULT, Logged: No, IP: 127.0.0.1:65485 } on Server port: 9933 <---> 65485
+04 Mar 2021 | 16:59:13,408 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#47, Id: 47, Priv: 0, Sess: 127.0.0.1:65485 ) , Type: Unity / .Net
+04 Mar 2021 | 16:59:16,407 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#47, Id: 47, Priv: 0, Sess: 127.0.0.1:65485 ) , asSpect: false
+04 Mar 2021 | 16:59:17,245 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 49, Type: DEFAULT, Logged: No, IP: 127.0.0.1:49155 } on Server port: 9933 <---> 49155
+04 Mar 2021 | 16:59:17,262 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#48, Id: 48, Priv: 0, Sess: 127.0.0.1:49155 ) , Type: Unity / .Net
+04 Mar 2021 | 17:00:09,661 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 49, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:49155 }
+04 Mar 2021 | 17:00:09,662 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 48, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:65485 }
+04 Mar 2021 | 17:00:09,662 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#48, Id: 48, Priv: 0, Sess: 127.0.0.1:49155 ) , SessionLen: 52400, Type: Unity / .Net
+04 Mar 2021 | 17:00:09,662 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#47, Id: 47, Priv: 0, Sess: 127.0.0.1:65485 ) , SessionLen: 56254, Type: Unity / .Net
+04 Mar 2021 | 17:00:38,953 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 50, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51434 } on Server port: 9933 <---> 51434
+04 Mar 2021 | 17:00:38,999 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#49, Id: 49, Priv: 0, Sess: 127.0.0.1:51434 ) , Type: Unity / .Net
+04 Mar 2021 | 17:00:46,841 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#49, Id: 49, Priv: 0, Sess: 127.0.0.1:51434 ) , asSpect: false
+04 Mar 2021 | 17:00:50,574 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 51, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51776 } on Server port: 9933 <---> 51776
+04 Mar 2021 | 17:00:50,591 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#50, Id: 50, Priv: 0, Sess: 127.0.0.1:51776 ) , Type: Unity / .Net
+04 Mar 2021 | 17:01:55,994 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 50, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51434 }
+04 Mar 2021 | 17:01:55,995 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#49, Id: 49, Priv: 0, Sess: 127.0.0.1:51434 ) , SessionLen: 76996, Type: Unity / .Net
+04 Mar 2021 | 17:01:56,006 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 51, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51776 }
+04 Mar 2021 | 17:01:56,006 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#50, Id: 50, Priv: 0, Sess: 127.0.0.1:51776 ) , SessionLen: 65415, Type: Unity / .Net
+04 Mar 2021 | 17:02:01,816 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 52, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53810 } on Server port: 9933 <---> 53810
+04 Mar 2021 | 17:02:01,869 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#51, Id: 51, Priv: 0, Sess: 127.0.0.1:53810 ) , Type: Unity / .Net
+04 Mar 2021 | 17:02:03,132 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#51, Id: 51, Priv: 0, Sess: 127.0.0.1:53810 ) , asSpect: false
+04 Mar 2021 | 17:02:04,235 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 53, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53880 } on Server port: 9933 <---> 53880
+04 Mar 2021 | 17:02:04,241 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: Extension Request refused. Sender is not a User: { Id: 53, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53880 }
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:93)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:04,253 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#52, Id: 52, Priv: 0, Sess: 127.0.0.1:53880 ) , Type: Unity / .Net
+04 Mar 2021 | 17:02:06,044 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:06,938 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:07,916 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:09,777 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:10,810 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:11,738 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:13,795 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:02:21,166 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 52, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53810 }
+04 Mar 2021 | 17:02:21,166 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 53, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53880 }
+04 Mar 2021 | 17:02:21,166 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#51, Id: 51, Priv: 0, Sess: 127.0.0.1:53810 ) , SessionLen: 19297, Type: Unity / .Net
+04 Mar 2021 | 17:02:21,167 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#52, Id: 52, Priv: 0, Sess: 127.0.0.1:53880 ) , SessionLen: 16914, Type: Unity / .Net
+04 Mar 2021 | 17:03:02,520 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 54, Type: DEFAULT, Logged: No, IP: 127.0.0.1:55552 } on Server port: 9933 <---> 55552
+04 Mar 2021 | 17:03:02,572 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#53, Id: 53, Priv: 0, Sess: 127.0.0.1:55552 ) , Type: Unity / .Net
+04 Mar 2021 | 17:03:03,849 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#53, Id: 53, Priv: 0, Sess: 127.0.0.1:55552 ) , asSpect: false
+04 Mar 2021 | 17:03:05,586 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:09,280 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:10,076 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:11,125 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:12,242 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:12,773 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:13,351 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:13,889 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:14,395 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:14,856 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:16,354 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:16,982 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:03:24,459 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 54, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55552 }
+04 Mar 2021 | 17:03:24,460 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#53, Id: 53, Priv: 0, Sess: 127.0.0.1:55552 ) , SessionLen: 21888, Type: Unity / .Net
+04 Mar 2021 | 17:15:28,452 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 55, Type: DEFAULT, Logged: No, IP: 127.0.0.1:59458 } on Server port: 9933 <---> 59458
+04 Mar 2021 | 17:15:28,538 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#54, Id: 54, Priv: 0, Sess: 127.0.0.1:59458 ) , Type: Unity / .Net
+04 Mar 2021 | 17:15:30,574 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#54, Id: 54, Priv: 0, Sess: 127.0.0.1:59458 ) , asSpect: false
+04 Mar 2021 | 17:15:31,930 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:32,821 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:33,508 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:34,223 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:35,989 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:37,918 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:40,413 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:15:45,407 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 55, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:59458 }
+04 Mar 2021 | 17:15:45,408 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#54, Id: 54, Priv: 0, Sess: 127.0.0.1:59458 ) , SessionLen: 16871, Type: Unity / .Net
+04 Mar 2021 | 17:18:17,701 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 56, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64164 } on Server port: 9933 <---> 64164
+04 Mar 2021 | 17:18:17,791 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#55, Id: 55, Priv: 0, Sess: 127.0.0.1:64164 ) , Type: Unity / .Net
+04 Mar 2021 | 17:18:19,503 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#55, Id: 55, Priv: 0, Sess: 127.0.0.1:64164 ) , asSpect: false
+04 Mar 2021 | 17:18:23,336 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 56, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64164 }
+04 Mar 2021 | 17:18:23,337 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#55, Id: 55, Priv: 0, Sess: 127.0.0.1:64164 ) , SessionLen: 5545, Type: Unity / .Net
+04 Mar 2021 | 17:26:34,827 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 57, Type: DEFAULT, Logged: No, IP: 127.0.0.1:61338 } on Server port: 9933 <---> 61338
+04 Mar 2021 | 17:26:34,917 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#56, Id: 56, Priv: 0, Sess: 127.0.0.1:61338 ) , Type: Unity / .Net
+04 Mar 2021 | 17:26:37,026 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#56, Id: 56, Priv: 0, Sess: 127.0.0.1:61338 ) , asSpect: false
+04 Mar 2021 | 17:26:37,898 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:38,555 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:39,031 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:39,487 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:40,048 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:40,604 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:41,161 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:42,010 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:43,062 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:44,711 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:45,326 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:26:57,700 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 57, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:61338 }
+04 Mar 2021 | 17:26:57,701 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#56, Id: 56, Priv: 0, Sess: 127.0.0.1:61338 ) , SessionLen: 22784, Type: Unity / .Net
+04 Mar 2021 | 17:30:18,083 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 58, Type: DEFAULT, Logged: No, IP: 127.0.0.1:50903 } on Server port: 9933 <---> 50903
+04 Mar 2021 | 17:30:18,172 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#57, Id: 57, Priv: 0, Sess: 127.0.0.1:50903 ) , Type: Unity / .Net
+04 Mar 2021 | 17:30:20,176 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#57, Id: 57, Priv: 0, Sess: 127.0.0.1:50903 ) , asSpect: false
+04 Mar 2021 | 17:30:21,609 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:22,626 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:24,030 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:26,331 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:26,987 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:28,236 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:28,748 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:29,359 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:29,964 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:30,715 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:31,508 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:32,047 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:32,747 | WARN  | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:33,684 | WARN  | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:36,097 | WARN  | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:30:36,992 | WARN  | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSExtensionException: No extensions can be invoked: { Zone: BasicExamples }, RoomId: None
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:157)
+	com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+04 Mar 2021 | 17:31:27,735 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 58, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:50903 }
+04 Mar 2021 | 17:31:27,735 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#57, Id: 57, Priv: 0, Sess: 127.0.0.1:50903 ) , SessionLen: 69564, Type: Unity / .Net
+04 Mar 2021 | 17:55:43,083 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+04 Mar 2021 | 17:55:43,085 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/2
+04 Mar 2021 | 17:55:43,085 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/3
+04 Mar 2021 | 18:33:45,870 | INFO  | http-nio-8080-exec-3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: WEBSOCKET, Logged: Yes, IP: 0:0:0:0:0:0:0:1:56495 }
+04 Mar 2021 | 18:33:45,872 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: hungbd, Id: 0, Priv: 0, Sess: 0:0:0:0:0:0:0:1:56495 ) , SessionLen: 11576362, Type: JavaScript

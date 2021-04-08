@@ -1,0 +1,15 @@
+11 Mar 2021 | 00:55:21,480 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 Mar 2021 | 00:55:21,484 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+11 Mar 2021 | 00:55:21,484 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+11 Mar 2021 | 05:55:44,895 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 Mar 2021 | 05:55:44,990 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+11 Mar 2021 | 05:55:44,991 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+11 Mar 2021 | 06:55:48,397 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 Mar 2021 | 06:55:48,433 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+11 Mar 2021 | 06:55:48,434 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+11 Mar 2021 | 07:55:12,679 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 Mar 2021 | 07:55:12,738 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+11 Mar 2021 | 07:55:12,739 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+11 Mar 2021 | 08:51:43,687 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Mar 2021 | 08:51:43,690 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Mar 2021 | 08:51:43,695 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...

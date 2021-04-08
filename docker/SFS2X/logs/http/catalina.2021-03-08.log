@@ -1,0 +1,92 @@
+08-Mar-2021 18:02:40.954 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Applications/SmartFoxServer_2X/SFS2X/lib/apache-tomcat
+08-Mar-2021 18:02:40.955 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Applications/SmartFoxServer_2X/SFS2X/lib/apache-tomcat
+08-Mar-2021 18:02:40.956 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+08-Mar-2021 18:02:40.956 INFO [TomcatRunner] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duchung/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Mar-2021 18:02:41.136 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 18:02:41.148 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 18:02:41.356 INFO [TomcatRunner] org.apache.catalina.startup.Catalina.load Server initialization in [527] milliseconds
+08-Mar-2021 18:02:41.377 INFO [TomcatRunner] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2021 18:02:41.378 INFO [TomcatRunner] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+08-Mar-2021 18:02:41.404 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Applications/SmartFoxServer_2X/SFS2X/www/BlueBox.war]
+08-Mar-2021 18:02:42.583 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:42.608 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Applications/SmartFoxServer_2X/SFS2X/www/BlueBox.war] has finished in [1,204] ms
+08-Mar-2021 18:02:42.609 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/manager]
+08-Mar-2021 18:02:43.652 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:43.656 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/manager] has finished in [1,047] ms
+08-Mar-2021 18:02:43.657 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/HelloServlet]
+08-Mar-2021 18:02:44.675 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:44.677 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/HelloServlet] has finished in [1,020] ms
+08-Mar-2021 18:02:44.677 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/ROOT]
+08-Mar-2021 18:02:45.921 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:45.923 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/ROOT] has finished in [1,246] ms
+08-Mar-2021 18:02:45.923 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/host-manager]
+08-Mar-2021 18:02:46.835 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:46.837 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/host-manager] has finished in [914] ms
+08-Mar-2021 18:02:46.837 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/logsBackup]
+08-Mar-2021 18:02:47.654 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 18:02:47.655 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/logsBackup] has finished in [818] ms
+08-Mar-2021 18:02:47.657 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 18:02:47.664 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 18:02:47.665 INFO [TomcatRunner] org.apache.catalina.startup.Catalina.start Server startup in [6,309] milliseconds
+08-Mar-2021 18:14:10.536 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 18:14:10.543 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 18:14:10.549 INFO [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Mar-2021 18:14:10.633 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 18:14:10.635 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 18:14:10.636 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 18:14:10.637 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_265-b01
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Applications/SmartFoxServer_2X/SFS2X/lib/apache-tomcat
+08-Mar-2021 21:00:24.556 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Applications/SmartFoxServer_2X/SFS2X/lib/apache-tomcat
+08-Mar-2021 21:00:24.557 INFO [TomcatRunner] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+08-Mar-2021 21:00:24.558 INFO [TomcatRunner] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/duchung/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Mar-2021 21:00:24.718 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 21:00:24.729 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 21:00:24.943 INFO [TomcatRunner] org.apache.catalina.startup.Catalina.load Server initialization in [488] milliseconds
+08-Mar-2021 21:00:24.959 INFO [TomcatRunner] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2021 21:00:24.959 INFO [TomcatRunner] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+08-Mar-2021 21:00:24.983 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Applications/SmartFoxServer_2X/SFS2X/www/BlueBox.war]
+08-Mar-2021 21:00:25.972 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:25.991 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Applications/SmartFoxServer_2X/SFS2X/www/BlueBox.war] has finished in [1,008] ms
+08-Mar-2021 21:00:25.991 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/manager]
+08-Mar-2021 21:00:27.148 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:27.151 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/manager] has finished in [1,160] ms
+08-Mar-2021 21:00:27.151 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/HelloServlet]
+08-Mar-2021 21:00:28.152 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:28.154 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/HelloServlet] has finished in [1,003] ms
+08-Mar-2021 21:00:28.154 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/ROOT]
+08-Mar-2021 21:00:29.258 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:29.259 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/ROOT] has finished in [1,105] ms
+08-Mar-2021 21:00:29.259 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/host-manager]
+08-Mar-2021 21:00:30.093 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:30.094 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/host-manager] has finished in [834] ms
+08-Mar-2021 21:00:30.094 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/logsBackup]
+08-Mar-2021 21:00:30.900 INFO [TomcatRunner] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2021 21:00:30.902 INFO [TomcatRunner] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/SmartFoxServer_2X/SFS2X/www/logsBackup] has finished in [808] ms
+08-Mar-2021 21:00:30.904 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 21:00:30.909 INFO [TomcatRunner] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 21:00:30.910 INFO [TomcatRunner] org.apache.catalina.startup.Catalina.start Server startup in [5,967] milliseconds
+08-Mar-2021 21:35:09.815 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 21:35:09.821 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 21:35:09.829 INFO [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Mar-2021 21:35:09.864 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 21:35:09.866 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+08-Mar-2021 21:35:09.869 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Mar-2021 21:35:09.869 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]

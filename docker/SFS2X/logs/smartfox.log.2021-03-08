@@ -1,0 +1,108 @@
+08 Mar 2021 | 18:02:40,078 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+08 Mar 2021 | 18:02:40,477 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+08 Mar 2021 | 18:02:40,498 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+08 Mar 2021 | 18:02:40,557 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+08 Mar 2021 | 18:02:40,558 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+08 Mar 2021 | 18:02:40,568 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+08 Mar 2021 | 18:02:40,573 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+08 Mar 2021 | 18:02:40,577 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+08 Mar 2021 | 18:02:40,598 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+08 Mar 2021 | 18:02:40,624 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+08 Mar 2021 | 18:02:40,634 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+08 Mar 2021 | 18:02:40,689 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+08 Mar 2021 | 18:02:40,754 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+08 Mar 2021 | 18:02:40,755 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+08 Mar 2021 | 18:02:40,756 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+08 Mar 2021 | 18:02:42,596 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+08 Mar 2021 | 18:03:33,013 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:61784 } on Server port: 9933 <---> 61784
+08 Mar 2021 | 18:03:33,172 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:61784 ) , Type: Unity / .Net
+08 Mar 2021 | 18:04:03,435 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:61784 }
+08 Mar 2021 | 18:04:03,436 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:61784 ) , SessionLen: 30265, Type: Unity / .Net
+08 Mar 2021 | 18:04:13,491 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63030 } on Server port: 9933 <---> 63030
+08 Mar 2021 | 18:04:13,588 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:63030 ) , Type: Unity / .Net
+08 Mar 2021 | 18:04:47,965 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63030 }
+08 Mar 2021 | 18:04:47,965 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:63030 ) , SessionLen: 34377, Type: Unity / .Net
+08 Mar 2021 | 18:07:10,472 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51592 } on Server port: 9933 <---> 51592
+08 Mar 2021 | 18:07:10,560 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51592 ) , Type: Unity / .Net
+08 Mar 2021 | 18:07:14,584 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51592 }
+08 Mar 2021 | 18:07:14,584 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51592 ) , SessionLen: 4024, Type: Unity / .Net
+08 Mar 2021 | 18:14:10,536 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+08 Mar 2021 | 18:14:10,536 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+08 Mar 2021 | 18:14:10,541 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+08 Mar 2021 | 21:00:23,872 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+08 Mar 2021 | 21:00:24,192 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+08 Mar 2021 | 21:00:24,208 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+08 Mar 2021 | 21:00:24,251 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+08 Mar 2021 | 21:00:24,252 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+08 Mar 2021 | 21:00:24,261 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+08 Mar 2021 | 21:00:24,265 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+08 Mar 2021 | 21:00:24,269 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+08 Mar 2021 | 21:00:24,288 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+08 Mar 2021 | 21:00:24,312 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+08 Mar 2021 | 21:00:24,320 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+08 Mar 2021 | 21:00:24,363 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+08 Mar 2021 | 21:00:24,415 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+08 Mar 2021 | 21:00:24,416 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+08 Mar 2021 | 21:00:24,416 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+08 Mar 2021 | 21:00:25,982 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+08 Mar 2021 | 21:02:06,447 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:50455 } on Server port: 9933 <---> 50455
+08 Mar 2021 | 21:02:06,616 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:50455 ) , Type: Unity / .Net
+08 Mar 2021 | 21:03:30,505 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:50455 }
+08 Mar 2021 | 21:03:30,506 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:50455 ) , SessionLen: 83891, Type: Unity / .Net
+08 Mar 2021 | 21:03:36,570 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51480 } on Server port: 9933 <---> 51480
+08 Mar 2021 | 21:03:36,621 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:51480 ) , Type: Unity / .Net
+08 Mar 2021 | 21:03:46,324 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51480 }
+08 Mar 2021 | 21:03:46,324 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:51480 ) , SessionLen: 9703, Type: Unity / .Net
+08 Mar 2021 | 21:04:09,413 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:51932 } on Server port: 9933 <---> 51932
+08 Mar 2021 | 21:04:09,471 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51932 ) , Type: Unity / .Net
+08 Mar 2021 | 21:05:36,319 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:51932 }
+08 Mar 2021 | 21:05:36,319 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:51932 ) , SessionLen: 86849, Type: Unity / .Net
+08 Mar 2021 | 21:35:09,814 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+08 Mar 2021 | 21:35:09,814 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+08 Mar 2021 | 21:35:09,820 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.

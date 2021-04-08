@@ -1,0 +1,110 @@
+08 Mar 2021 | 18:02:40,689 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+08 Mar 2021 | 18:02:40,691 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.71.0 { main }
+08 Mar 2021 | 18:02:40,692 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 12
+	VM Max. memory: 3817MB
+	os.name: Mac OS X
+	os.arch: x86_64
+	os.version: 10.16
+	java.version: 1.8.0_265
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.265-b01
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/
+	Default charset: UTF-8
+
+08 Mar 2021 | 18:02:40,695 | INFO  | main | bootLogger |     | Network Info:
+	Card: en5
+		 ->fe80:0:0:0:aede:48ff:fe00:1122%en5
+	Card: utun1
+		 ->fe80:0:0:0:6b64:f891:2a7d:9b41%utun1
+	Card: utun0
+		 ->fe80:0:0:0:497b:2c0b:13a4:a73a%utun0
+	Card: llw0
+		 ->fe80:0:0:0:f1:13ff:fe69:731f%llw0
+	Card: awdl0
+		 ->fe80:0:0:0:f1:13ff:fe69:731f%awdl0
+	Card: en0
+		 ->fe80:0:0:0:4a1:fddd:b240:dc12%en0
+		 ->192.168.1.139
+	Card: lo0
+		 ->fe80:0:0:0:0:0:0:1%lo0
+		 ->0:0:0:0:0:0:0:1%lo0
+		 ->127.0.0.1
+
+08 Mar 2021 | 18:02:40,699 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@4b8ee4de
+08 Mar 2021 | 18:02:40,705 | INFO  | main | bootLogger |     | TCP Selector opened
+08 Mar 2021 | 18:02:40,710 | INFO  | main | bootLogger |     | UDP Selector opened
+08 Mar 2021 | 18:02:40,713 | INFO  | main | bootLogger |     | AcceptSelector opened
+08 Mar 2021 | 18:02:40,713 | INFO  | main | bootLogger |     | DatagramChannel cache size: 80
+08 Mar 2021 | 18:02:40,726 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+08 Mar 2021 | 18:02:40,735 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+08 Mar 2021 | 18:02:40,735 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+08 Mar 2021 | 18:02:40,735 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+08 Mar 2021 | 18:02:40,735 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+08 Mar 2021 | 18:02:40,736 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+08 Mar 2021 | 18:02:40,737 | INFO  | main | bootLogger |     | SocketWriter v3 started (TCP pool size: 3, UDP pool size: 3 
+08 Mar 2021 | 18:02:40,738 | INFO  | main | bootLogger |     | Security Manager started
+08 Mar 2021 | 18:02:40,740 | INFO  | main | bootLogger |     | DatagramReader started
+08 Mar 2021 | 18:02:40,740 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5032714f
+08 Mar 2021 | 18:02:40,740 | INFO  | main | bootLogger |     | SocketReader started
+08 Mar 2021 | 18:02:40,740 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+08 Mar 2021 | 18:02:40,741 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+08 Mar 2021 | 21:00:24,363 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+08 Mar 2021 | 21:00:24,364 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.71.0 { main }
+08 Mar 2021 | 21:00:24,365 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 12
+	VM Max. memory: 3817MB
+	os.name: Mac OS X
+	os.arch: x86_64
+	os.version: 10.16
+	java.version: 1.8.0_265
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.265-b01
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/
+	Default charset: UTF-8
+
+08 Mar 2021 | 21:00:24,368 | INFO  | main | bootLogger |     | Network Info:
+	Card: en5
+		 ->fe80:0:0:0:aede:48ff:fe00:1122%en5
+	Card: utun1
+		 ->fe80:0:0:0:6b64:f891:2a7d:9b41%utun1
+	Card: utun0
+		 ->fe80:0:0:0:497b:2c0b:13a4:a73a%utun0
+	Card: llw0
+		 ->fe80:0:0:0:f1:13ff:fe69:731f%llw0
+	Card: awdl0
+		 ->fe80:0:0:0:f1:13ff:fe69:731f%awdl0
+	Card: en0
+		 ->fe80:0:0:0:4a1:fddd:b240:dc12%en0
+		 ->192.168.1.157
+	Card: lo0
+		 ->fe80:0:0:0:0:0:0:1%lo0
+		 ->0:0:0:0:0:0:0:1%lo0
+		 ->127.0.0.1
+
+08 Mar 2021 | 21:00:24,371 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@4b8ee4de
+08 Mar 2021 | 21:00:24,376 | INFO  | main | bootLogger |     | TCP Selector opened
+08 Mar 2021 | 21:00:24,381 | INFO  | main | bootLogger |     | UDP Selector opened
+08 Mar 2021 | 21:00:24,384 | INFO  | main | bootLogger |     | AcceptSelector opened
+08 Mar 2021 | 21:00:24,384 | INFO  | main | bootLogger |     | DatagramChannel cache size: 80
+08 Mar 2021 | 21:00:24,394 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+08 Mar 2021 | 21:00:24,399 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+08 Mar 2021 | 21:00:24,400 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+08 Mar 2021 | 21:00:24,400 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+08 Mar 2021 | 21:00:24,400 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+08 Mar 2021 | 21:00:24,400 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+08 Mar 2021 | 21:00:24,401 | INFO  | main | bootLogger |     | SocketWriter v3 started (TCP pool size: 3, UDP pool size: 3 
+08 Mar 2021 | 21:00:24,402 | INFO  | main | bootLogger |     | Security Manager started
+08 Mar 2021 | 21:00:24,403 | INFO  | main | bootLogger |     | DatagramReader started
+08 Mar 2021 | 21:00:24,403 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5032714f
+08 Mar 2021 | 21:00:24,403 | INFO  | main | bootLogger |     | SocketReader started
+08 Mar 2021 | 21:00:24,403 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+08 Mar 2021 | 21:00:24,403 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

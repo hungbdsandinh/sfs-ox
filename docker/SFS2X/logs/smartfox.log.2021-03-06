@@ -1,0 +1,135 @@
+06 Mar 2021 | 17:33:29,201 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+06 Mar 2021 | 17:33:29,597 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+06 Mar 2021 | 17:33:29,618 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/var/folders/lv/f3n5b_y147d4v90mcj55nxgm0000gn/T/vfs_cache" as temporary files store.
+06 Mar 2021 | 17:33:29,669 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+06 Mar 2021 | 17:33:29,670 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+06 Mar 2021 | 17:33:29,680 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+06 Mar 2021 | 17:33:29,685 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+06 Mar 2021 | 17:33:29,689 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+06 Mar 2021 | 17:33:29,709 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+06 Mar 2021 | 17:33:29,735 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+06 Mar 2021 | 17:33:29,745 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+06 Mar 2021 | 17:33:29,809 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+06 Mar 2021 | 17:33:29,866 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+06 Mar 2021 | 17:33:29,867 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.17.0 ] 
+
+06 Mar 2021 | 17:33:29,867 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.17.0) READY!
+06 Mar 2021 | 17:33:31,558 | INFO  | TomcatRunner | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.2) READY.
+06 Mar 2021 | 17:33:37,723 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63474 } on Server port: 9933 <---> 63474
+06 Mar 2021 | 17:33:37,881 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:63474 ) , Type: Unity / .Net
+06 Mar 2021 | 17:33:39,334 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:63474 ) , asSpect: false
+06 Mar 2021 | 17:34:31,185 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63474 }
+06 Mar 2021 | 17:34:31,187 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:63474 ) , SessionLen: 53307, Type: Unity / .Net
+06 Mar 2021 | 17:35:13,004 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63486 } on Server port: 9933 <---> 63486
+06 Mar 2021 | 17:35:13,060 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:63486 ) , Type: Unity / .Net
+06 Mar 2021 | 17:35:13,657 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:63486 ) , asSpect: false
+06 Mar 2021 | 17:35:37,239 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63486 }
+06 Mar 2021 | 17:35:37,239 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:63486 ) , SessionLen: 24179, Type: Unity / .Net
+06 Mar 2021 | 17:55:29,840 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+06 Mar 2021 | 17:55:29,841 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/1
+06 Mar 2021 | 17:55:29,841 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+06 Mar 2021 | 17:58:49,343 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63562 } on Server port: 9933 <---> 63562
+06 Mar 2021 | 17:58:49,397 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:63562 ) , Type: Unity / .Net
+06 Mar 2021 | 17:58:50,756 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:63562 ) , asSpect: false
+06 Mar 2021 | 17:59:11,282 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63562 }
+06 Mar 2021 | 17:59:11,282 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:63562 ) , SessionLen: 21887, Type: Unity / .Net
+06 Mar 2021 | 18:04:07,445 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63596 } on Server port: 9933 <---> 63596
+06 Mar 2021 | 18:04:07,526 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63596 ) , Type: Unity / .Net
+06 Mar 2021 | 18:04:09,659 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63596 ) , asSpect: false
+06 Mar 2021 | 18:04:23,664 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63596 }
+06 Mar 2021 | 18:04:23,664 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63596 ) , SessionLen: 16138, Type: Unity / .Net
+06 Mar 2021 | 18:11:08,151 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63688 } on Server port: 9933 <---> 63688
+06 Mar 2021 | 18:11:08,225 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:63688 ) , Type: Unity / .Net
+06 Mar 2021 | 18:11:28,561 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63688 }
+06 Mar 2021 | 18:11:28,562 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:63688 ) , SessionLen: 20337, Type: Unity / .Net
+06 Mar 2021 | 18:15:19,096 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63809 } on Server port: 9933 <---> 63809
+06 Mar 2021 | 18:15:19,176 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:63809 ) , Type: Unity / .Net
+06 Mar 2021 | 18:15:28,411 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63809 }
+06 Mar 2021 | 18:15:28,411 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:63809 ) , SessionLen: 9235, Type: Unity / .Net
+06 Mar 2021 | 19:55:31,312 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+06 Mar 2021 | 19:55:31,313 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+06 Mar 2021 | 19:55:31,329 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+06 Mar 2021 | 22:49:53,452 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64198 } on Server port: 9933 <---> 64198
+06 Mar 2021 | 22:49:53,500 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:64198 ) , Type: Unity / .Net
+06 Mar 2021 | 22:50:14,117 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64198 }
+06 Mar 2021 | 22:50:14,117 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:64198 ) , SessionLen: 20617, Type: Unity / .Net
+06 Mar 2021 | 22:55:01,186 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+06 Mar 2021 | 22:55:01,187 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/1
+06 Mar 2021 | 22:55:01,188 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+06 Mar 2021 | 22:56:46,684 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64255 } on Server port: 9933 <---> 64255
+06 Mar 2021 | 22:56:46,731 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:64255 ) , Type: Unity / .Net
+06 Mar 2021 | 22:57:00,775 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64255 }
+06 Mar 2021 | 22:57:00,776 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#7, Id: 7, Priv: 0, Sess: 127.0.0.1:64255 ) , SessionLen: 14045, Type: Unity / .Net
+06 Mar 2021 | 22:57:18,945 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64268 } on Server port: 9933 <---> 64268
+06 Mar 2021 | 22:57:19,015 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#8, Id: 8, Priv: 0, Sess: 127.0.0.1:64268 ) , Type: Unity / .Net
+06 Mar 2021 | 22:57:28,259 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64268 }
+06 Mar 2021 | 22:57:28,259 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#8, Id: 8, Priv: 0, Sess: 127.0.0.1:64268 ) , SessionLen: 9244, Type: Unity / .Net
+06 Mar 2021 | 22:59:34,934 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64280 } on Server port: 9933 <---> 64280
+06 Mar 2021 | 22:59:34,989 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#9, Id: 9, Priv: 0, Sess: 127.0.0.1:64280 ) , Type: Unity / .Net
+06 Mar 2021 | 22:59:51,507 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64280 }
+06 Mar 2021 | 22:59:51,509 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#9, Id: 9, Priv: 0, Sess: 127.0.0.1:64280 ) , SessionLen: 16522, Type: Unity / .Net
+06 Mar 2021 | 23:00:07,746 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64285 } on Server port: 9933 <---> 64285
+06 Mar 2021 | 23:00:07,804 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#10, Id: 10, Priv: 0, Sess: 127.0.0.1:64285 ) , Type: Unity / .Net
+06 Mar 2021 | 23:00:21,047 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64285 }
+06 Mar 2021 | 23:00:21,047 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#10, Id: 10, Priv: 0, Sess: 127.0.0.1:64285 ) , SessionLen: 13243, Type: Unity / .Net
+06 Mar 2021 | 23:01:34,829 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64307 } on Server port: 9933 <---> 64307
+06 Mar 2021 | 23:01:34,896 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#11, Id: 11, Priv: 0, Sess: 127.0.0.1:64307 ) , Type: Unity / .Net
+06 Mar 2021 | 23:02:16,214 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64307 }
+06 Mar 2021 | 23:02:16,215 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#11, Id: 11, Priv: 0, Sess: 127.0.0.1:64307 ) , SessionLen: 41319, Type: Unity / .Net
+06 Mar 2021 | 23:03:13,364 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64326 } on Server port: 9933 <---> 64326
+06 Mar 2021 | 23:03:13,418 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#12, Id: 12, Priv: 0, Sess: 127.0.0.1:64326 ) , Type: Unity / .Net
+06 Mar 2021 | 23:03:28,854 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64326 }
+06 Mar 2021 | 23:03:28,855 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#12, Id: 12, Priv: 0, Sess: 127.0.0.1:64326 ) , SessionLen: 15438, Type: Unity / .Net
+06 Mar 2021 | 23:04:08,534 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64340 } on Server port: 9933 <---> 64340
+06 Mar 2021 | 23:04:08,605 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#13, Id: 13, Priv: 0, Sess: 127.0.0.1:64340 ) , Type: Unity / .Net
+06 Mar 2021 | 23:04:12,480 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64340 }
+06 Mar 2021 | 23:04:12,480 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#13, Id: 13, Priv: 0, Sess: 127.0.0.1:64340 ) , SessionLen: 3876, Type: Unity / .Net
+06 Mar 2021 | 23:05:25,694 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64352 } on Server port: 9933 <---> 64352
+06 Mar 2021 | 23:05:25,742 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#14, Id: 14, Priv: 0, Sess: 127.0.0.1:64352 ) , Type: Unity / .Net
+06 Mar 2021 | 23:05:35,898 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64352 }
+06 Mar 2021 | 23:05:35,899 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#14, Id: 14, Priv: 0, Sess: 127.0.0.1:64352 ) , SessionLen: 10157, Type: Unity / .Net
+06 Mar 2021 | 23:05:37,952 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64358 } on Server port: 9933 <---> 64358
+06 Mar 2021 | 23:05:38,004 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#15, Id: 15, Priv: 0, Sess: 127.0.0.1:64358 ) , Type: Unity / .Net
+06 Mar 2021 | 23:06:06,518 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64358 }
+06 Mar 2021 | 23:06:06,519 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#15, Id: 15, Priv: 0, Sess: 127.0.0.1:64358 ) , SessionLen: 28515, Type: Unity / .Net
+06 Mar 2021 | 23:06:12,207 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64370 } on Server port: 9933 <---> 64370
+06 Mar 2021 | 23:06:12,261 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#16, Id: 16, Priv: 0, Sess: 127.0.0.1:64370 ) , Type: Unity / .Net
+06 Mar 2021 | 23:06:17,242 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64370 }
+06 Mar 2021 | 23:06:17,243 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#16, Id: 16, Priv: 0, Sess: 127.0.0.1:64370 ) , SessionLen: 4982, Type: Unity / .Net
+06 Mar 2021 | 23:06:46,029 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64377 } on Server port: 9933 <---> 64377
+06 Mar 2021 | 23:06:46,095 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#17, Id: 17, Priv: 0, Sess: 127.0.0.1:64377 ) , Type: Unity / .Net
+06 Mar 2021 | 23:07:02,188 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64377 }
+06 Mar 2021 | 23:07:02,188 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#17, Id: 17, Priv: 0, Sess: 127.0.0.1:64377 ) , SessionLen: 16093, Type: Unity / .Net
+06 Mar 2021 | 23:07:22,190 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 19, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64393 } on Server port: 9933 <---> 64393
+06 Mar 2021 | 23:07:22,246 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#18, Id: 18, Priv: 0, Sess: 127.0.0.1:64393 ) , Type: Unity / .Net
+06 Mar 2021 | 23:07:27,407 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 19, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64393 }
+06 Mar 2021 | 23:07:27,407 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#18, Id: 18, Priv: 0, Sess: 127.0.0.1:64393 ) , SessionLen: 5161, Type: Unity / .Net
+06 Mar 2021 | 23:08:04,156 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 20, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64413 } on Server port: 9933 <---> 64413
+06 Mar 2021 | 23:08:04,212 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: Guest#19, Id: 19, Priv: 0, Sess: 127.0.0.1:64413 ) , Type: Unity / .Net
+06 Mar 2021 | 23:09:40,449 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 20, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64413 }
+06 Mar 2021 | 23:09:40,450 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: Guest#19, Id: 19, Priv: 0, Sess: 127.0.0.1:64413 ) , SessionLen: 96238, Type: Unity / .Net
+06 Mar 2021 | 23:55:01,270 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+06 Mar 2021 | 23:55:01,271 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/1
+06 Mar 2021 | 23:55:01,271 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
